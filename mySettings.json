@@ -1,0 +1,157 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "editor.guides.bracketPairs": "active",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "files.autoSave": "afterDelay",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "liveServer.settings.fullReload": true,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  // "css.lint.unknownAtRules": "ignore",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
+  "zenMode.hideLineNumbers": false,
+  "python.defaultInterpreterPath": "C:\\Users\\26vik\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+
+  /* React Settings */
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  /* wriggle line removed */
+  "workbench.colorCustomizations": {
+    // "editorError.foreground": "#00000000",
+    // "editorWarning.foreground": "#00000000",
+    // "editorInfo.foreground": "#00000000"
+  },
+
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/dist/css",
+      "savePathReplacementPairs": null
+    }
+  ],
+
+  "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 version"],
+
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.smartRelativeLine": true,
+  "vim.leader": "<space>",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+
+  "vim.normalModeKeyBindingsNonRecursive": [
+    // NAVIGATION
+    // switch b/w buffers
+    { "before": ["<S-h>"], "commands": [":bprevious"] },
+    { "before": ["<S-l>"], "commands": [":bnext"] },
+    // splits
+    { "before": ["leader", "v"], "commands": [":vsplit"] },
+    { "before": ["leader", "s"], "commands": [":split"] },
+    // panes
+    {
+      "before": ["leader", "h"],
+      "commands": ["workbench.action.focusLeftGroup"]
+    },
+    {
+      "before": ["leader", "j"],
+      "commands": ["workbench.action.focusBelowGroup"]
+    },
+    {
+      "before": ["leader", "k"],
+      "commands": ["workbench.action.focusAboveGroup"]
+    },
+    {
+      "before": ["leader", "l"],
+      "commands": ["workbench.action.focusRightGroup"]
+    },
+
+    // FILE TREE
+    // NICE TO HAVE
+    { "before": ["leader", "w"], "commands": [":w!"] },
+    { "before": ["leader", "q"], "commands": [":q!"] },
+    { "before": ["leader", "x"], "commands": [":x!"] },
+    {
+      "before": ["leader", "n", "e"],
+      "commands": ["workbench.explorer.fileView.focus"]
+    },
+    {
+      "before": ["[", "d"],
+      "commands": ["editor.action.marker.prev"]
+    },
+    {
+      "before": ["]", "d"],
+      "commands": ["editor.action.marker.next"]
+    },
+    {
+      "before": ["<leader>", "c", "a"],
+      "commands": ["editor.action.quickFix"]
+    },
+    // NICE TO HAVE
+    { "before": ["leader", "w"], "commands": ["workbench.action.files.save"] },
+    { "before": ["leader", "f"], "commands": ["workbench.action.quickOpen"] },
+    { "before": ["leader", "p"], "commands": ["editor.action.formatDocument"] },
+    {
+      "before": ["g", "h"],
+      "commands": ["editor.action.showDefinitionPreviewHover"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    // Stay in visual mode while indenting
+    { "before": ["<"], "commands": ["editor.action.outdentLines"] },
+    { "before": [">"], "commands": ["editor.action.indentLines"] },
+    // Move selected lines while staying in visual mode
+    { "before": ["J"], "commands": ["editor.action.moveLinesDownAction"] },
+    { "before": ["K"], "commands": ["editor.action.moveLinesUpAction"] },
+    // toggle comment selection
+    { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
+  ],
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-y>": false,
+    "<C-v>": false,
+    "<C-c>": false,
+    "<C-d>": true,
+    "<C-k>": false,
+    "<C-x>": false,
+    "<C-l>": false
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    // "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "files.exclude": {
+    "**/.git": false
+  },
+  "tailwindCSS.classAttributes": ["class", "className", "ngClass", "variants"],
+  "tabnine.experimentalAutoImports": true,
+  "workbench.editor.showTabs": "multiple",
+  "dart.previewFlutterUiGuides": true,
+  "window.zoomLevel": -2,
+  "reactSnippets.settings.importReactOnTop": false,
+  "editor.cursorBlinking": "smooth",
+  "explorer.compactFolders": false,
+  "editor.cursorWidth": 2,
+  "workbench.colorTheme": "GitHub Dark Default"
+}
