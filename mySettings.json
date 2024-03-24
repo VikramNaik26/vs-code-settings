@@ -1,18 +1,22 @@
 {
   "workbench.iconTheme": "vscode-icons",
+  "workbench.settings.editor": "json",
+  "editor.fontSize": 13,
   "editor.guides.bracketPairs": "active",
   "liveServer.settings.donotShowInfoMsg": true,
   "files.autoSave": "afterDelay",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "liveServer.settings.fullReload": true,
-  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
   // "css.lint.unknownAtRules": "ignore",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.singleQuote": true,
+  // "prettier.jsxSingleQuote": true,
   "prettier.semi": false,
   "editor.formatOnSave": true,
   "editor.linkedEditing": true,
   "zenMode.hideLineNumbers": false,
+  "editor.tabSize": 2,
   "python.defaultInterpreterPath": "C:\\Users\\26vik\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
 
   /* React Settings */
@@ -127,7 +131,8 @@
     "<C-d>": true,
     "<C-k>": false,
     "<C-x>": false,
-    "<C-l>": false
+    "<C-l>": false,
+    "<C-p>": false
   },
   "[dart]": {
     "editor.formatOnSave": true,
@@ -148,10 +153,31 @@
   "tabnine.experimentalAutoImports": true,
   "workbench.editor.showTabs": "multiple",
   "dart.previewFlutterUiGuides": true,
-  "window.zoomLevel": -2,
   "reactSnippets.settings.importReactOnTop": false,
   "editor.cursorBlinking": "smooth",
   "explorer.compactFolders": false,
   "editor.cursorWidth": 2,
-  "workbench.colorTheme": "GitHub Dark Default"
+  "workbench.colorTheme": "GitHub Dark Default",
+  "window.zoomLevel": -1.85,
+
+  /* apc settings */
+  "apc.activityBar": {
+    "position": "bottom",
+    "hideSettings": true,
+    "size": 28
+  },
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 12,
+      "y": 10
+    }
+  },
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 28,
+    "fontSize": 12
+  },
+  "update.mode": "manual",
+  "editor.cursorSmoothCaretAnimation": "on"
 }
